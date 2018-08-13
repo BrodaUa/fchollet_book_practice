@@ -1,7 +1,7 @@
 import os, shutil
 
-original_dataset_dir = '/home/broda/.kaggle/competitions/dogs-vs-cats/train'
-base_dir = '/home/broda/fchollet/dogs-vs-cats'
+original_dataset_dir = '/home/broda/kaggle/dogs-vs-cats/train'
+base_dir = '/home/broda/dogs-vs-cats'
 os.mkdir(base_dir)
 
 train_dir = os.path.join(base_dir, 'train')
